@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+MSYS2_ARG_CONV_EXCL="//"
+export MSYS2_ARG_CONV_EXCL
+
+bazel $*
